@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    padding: 5px;
+    height: 100vh;
+    background-image: url(../images/gym3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*nav bar*/
+
+header {
+    background-color: #1f2937;
+    border-radius: 50px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+nav {
+    display: flex;
+    margin: 10px;
+    border: 0ch;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: auto;
+    padding: 0;
+}
+
+div {
+    margin: 20px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+main div {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+button {
+    border: beige;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+button:hover {
+    color: chartreuse;
+}
+
+.laga {
+    clip-path: circle();
+}
+
+main img {
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.body h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+#grid {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 0;
+    flex-wrap: nowrap;
+}
+
+.flex {
+    flex: 1;
+}
+
+#grid>div>img {
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    flex: 1;
+    padding: 0;
+    margin: 5px;
+}
+
+figcaption {
+    color: rgb(27, 2, 2);
+    text-align: center;
+}
+
+.main {
+    background-color: #f9faf8;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.last {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30pxs;
+    margin-top: 50;
+    background-color: #3882f6;
+    height: 150px;
+    font-family: italic;
+    color: azure;
+    border-radius: 50px;
+}
+
+.last button {
+    color: blue;
+    margin: 20px;
+}
+
+.last button:hover {
+    color: darkgreen;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #1f2937;
+    width: 100%;
+    color: azure;
+}
